@@ -1,0 +1,89 @@
+body{
+    background-image: url('/Wallpaper.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    width: 20em;
+    min-height: 26em;
+    max-height: auto;
+    background-color: black;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    opacity: 0.8;
+    border: 2px solid wheat;
+    
+    
+}
+.weather-cont{
+    margin-top: 2em;
+    width: 18.1em;
+    height: 20em;
+    /* background-color: antiquewhite; */
+    padding-left: 20px;
+    color: white;
+    /* display: flex;
+    justify-content: center; */
+    text-align: center;
+}
+input{
+    width: 14em;
+    height: 2.9em;
+    border-radius: 1em;
+    /* outline: none; */
+    border: none;
+    padding-left: 20px;
+}
+button{
+    width: 80px;
+
+    border-radius: 1em;
+    position: relative;
+    top: 2px;
+
+}
+img{
+    
+    height: 130px;
+    
+    /* position: relative; */
+    /* top: 20px; */
+}
+h2{
+    position: relative;
+    bottom: 40px;
+    font-size: 35px;
+}
+.degree{
+    font-size: 30px;
+    position: relative;
+    bottom: 50px;
+}
+.degree-span{
+    position: relative;
+    left: 7px;
+    bottom: 50px;
+}
+.deg-speed{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aqua; */
+    text-align: start;
+    width: 280px;
+    position: relative;
+    bottom: 20px;
+    font-size: 18px;
+}
+
+.error {
+  color: red;
+  margin-top: 50px;
+  font-size: larger;
+}
