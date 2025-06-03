@@ -18,6 +18,7 @@ const Component1 = () => {
         if(!res.ok){
             setErrorMsg("HTTP error ! Status" + res.status);
             setApiData("")
+            setWeatherData("")
             return;
         }
         const data = await res.json()
@@ -29,6 +30,7 @@ const Component1 = () => {
       catch(er){
         setErrorMsg(er.message)
         setApiData("")
+        setWeatherData("")
       }
     }
 useEffect(()=>{
