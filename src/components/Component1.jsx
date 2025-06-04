@@ -16,7 +16,7 @@ const Component1 = () => {
         
 
         if(!res.ok){
-            setErrorMsg("HTTP error ! Status" + res.status);
+         setErrorMsg('City or country name not found');
             setApiData("")
             setWeatherData("")
             return;
